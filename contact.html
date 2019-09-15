@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Scratch Pad - bootstrap</title>
+  <title>Contact - bootstrap</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <style>
@@ -15,9 +15,19 @@
 
     }
 
+    #section_header {
+      /* margin-top: 3em; */
+      padding: 1em;
+      color: #4aaaa5;
+    }
+
     #content_wrapper {
       background-color: red;
       margin: auto;
+    }
+
+    #spacer {
+      margin: 1em;
     }
 
     #name {
@@ -46,7 +56,7 @@
       padding-top: 2em;
       float: right;
     }
-    
+
 
     #content {
       border: 1px solid #dddddd;
@@ -59,6 +69,9 @@
       overflow: auto;
     }
 
+    form {
+      padding: 1em;
+    }
 
     footer {
       /* position: absolute;
@@ -78,8 +91,6 @@
       margin-top: 1em;
       /* margin-top: 8em; */
     }
-
-
   </style>
 </head>
 <header>
@@ -112,10 +123,35 @@
 
 <body background="assets/images/topography.png">
   <div id="container">
+    <div class="row" id="spacer"></div>
     <div class="row">
       <div class="col"></div>
       <div class="col-md-8">
-        <div id="content">Content Here</div>
+        <div id="content">
+          <aside id="section_header">
+            <h2>Portfolio</h2>
+            <hr>
+          </aside>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+
+            </div>
+            
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
       </div>
       <div class="col"></div>
     </div>
