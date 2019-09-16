@@ -1,3 +1,88 @@
-/* h1 {
+header {
+
+    background-color: white;
+
+  }
+
+  img {
     margin: 1em;
-} */
+  }
+
+  /* h1 {
+    margin-left: 2em;
+  } */
+  #content_wrapper {
+    /* background-color: red; */
+    margin: auto;
+  }
+
+  #spacer {
+    margin: 1em;
+  }
+
+  #name {
+    float: left;
+    position: relative;
+    /* bottom: -1em; */
+    padding: 1em;
+    text-decoration-color: white;
+    color: #ffffff;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: #4aaaa5;
+  }
+
+  #section_header {
+    /* margin-top: 3em; */
+    padding: 1em;
+    color: #4aaaa5;
+  }
+
+  #header_content {
+    overflow: auto;
+    color: #fff;
+    max-width: 960px;
+    background: white;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+
+  .nav {
+    /* padding-left: 15em; */
+    padding-top: 2em;
+    float: right;
+  }
+
+
+
+  #content {
+    border: 1px solid #dddddd;
+    /* border: color #dddddd; */
+    /* background-color: #ffffff; */
+    background-color: white;
+
+    max-width: 960px;
+    height: 45em;
+    margin: auto;
+    overflow: auto;
+  }
+
+
+  footer {
+    /* position: absolute;
+  bottom: 0em; */
+    display: table-cell;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    padding-top: 2em;
+    /* margin: 0px; */
+    background: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    vertical-align: bottom;
+    margin-top: 1em;
+    /* margin-top: 8em; */
+  }
