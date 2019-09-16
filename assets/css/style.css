@@ -16,6 +16,10 @@ header {
     margin: auto;
   }
 
+  form {
+      margin: 1em;
+  }
+
   #spacer {
     margin: 1em;
   }
@@ -62,27 +66,26 @@ header {
     background-color: white;
 
     max-width: 960px;
-    height: 45em;
+    /* height: 45em; */
     margin: auto;
     overflow: auto;
   }
 
 
   footer {
-    /* position: absolute;
-  bottom: 0em; */
+   
     display: table-cell;
     position: fixed;
     left: 0px;
     width: 100%;
     bottom: 0px;
     padding-top: 2em;
-    /* margin: 0px; */
+   
     background: #666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
     color: #ffffff;
     vertical-align: bottom;
     margin-top: 1em;
-    /* margin-top: 8em; */
+   
   }
